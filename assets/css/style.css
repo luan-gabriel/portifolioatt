@@ -229,6 +229,19 @@ body nav#navigation .social-links li:nth-child(4) svg:hover path:nth-child(2) {
 
 /* == == */
 
+#projeto-textos h2,
+#projeto-textos h3 {
+  color: var(--headline);
+}
+
+#projeto-textos p,
+#projeto-textos li {
+  color: var(--paragraph);
+}
+
+
+
+
 #projects .card circle {
   fill: var(--secundary-color);
 }
@@ -1704,4 +1717,25 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   margin-top: 8px;
   font-size: 14px;
   color: #ffffff;
+}
+
+#site-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1.2rem;
+  background: linear-gradient(90deg, #4f46e5, #3b82f6); /* degrade azul */
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+#site-btn:hover {
+  background: linear-gradient(90deg, #4338ca, #2563eb);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.25);
 }
